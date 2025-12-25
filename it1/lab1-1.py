@@ -1,3 +1,3 @@
 x=int(input("Введите число: "))
-for i in range(0, x+1, 2):
+for i in range(1, x+1, 1):
     print(i)

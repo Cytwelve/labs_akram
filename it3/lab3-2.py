@@ -9,8 +9,6 @@ def new_text(filename, txt):
     return "Текст успешно создан"
 
 try:
-    content=input("введите текст ")
-    new_text('example.txt', content)
     c=1
     while c==1 or c==2:
         c=int(input("Продолжить писать - 1, создать новый файл - 2, закончить писать - любое другое значение: "))
@@ -27,4 +25,3 @@ try:
             print("Конец записи")
 except ValueError:
     print("Конец записи")
-
